@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+html {
+    background-image: url("../img/background.png");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: auto;
+    padding: 8px;
+    max-width: 1050px;
+    font-family: "Times New Roman";
+    overflow-y: scroll;
+}
+.transparent {
+    background-image: url("../img/transparent2.png");
+}
+
+.navbar {
+    text-align: center;
+    width: 1050px;
+    padding-bottom: 15px;
+    padding-top: 0.2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    font-family: "Abril Fatface";
+}
+
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 1;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar a:link {
+    color: #F7973D;
+}
+
+.navbar a:visited {
+    color: #F7973D;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #F7973D;
+}
+
+.navbar a:active {
+    color: black;
+    opacity: 0.7;
+}
+
+article {
+    margin-top: 300px;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 0.1px;
+    background-color: #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+article h1 {
+    font-size: 40px;
+}
+
+article h1, h2, h3, h4 {
+    font-family: "Abril Fatface";
+}
+
+article p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:link {
+    color: #666;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover {
+    color: #333;
+}
+
+.be-awesome {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.oophp {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.site-footer {
+    margin-top: 35px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}

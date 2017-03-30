@@ -1,4 +1,4 @@
-<?php echo "I wanna be a frontcontroller!";
+<?php
 
 /**
  * Bootstrap the framework.
@@ -46,5 +46,3 @@ require ANAX_INSTALL_PATH . "/config/route.php";
 
 // Leave to router to match incoming request to routes
 $app->router->handle($app->request->getRoute());
-
-?>

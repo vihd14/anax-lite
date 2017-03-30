@@ -1,9 +1,13 @@
 <?php
 $urlHome  = $app->url->create("");
 $urlAbout = $app->url->create("about");
+$urlReport = $app->url->create("report");
+?>
 
-?><navbar>
-<p></p>
-<a href="<?= $urlHome ?>">Home</a> |
-<a href="<?= $urlAbout ?>">About</a>
-</navbar>
+<nav class="navbar transparent">
+    <p></p>
+    <a href="<?= $urlHome ?>">HOME</a>
+    <a href="<?= $urlAbout ?>">ABOUT</a>
+    <a href="<?= $urlReport ?>">REPORT</a>
+</nav>
+<article>
