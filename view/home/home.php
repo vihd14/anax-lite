@@ -1,6 +1,8 @@
 <h1>Välkommen till min sida i Anax-lite!</h1>
 <p><b>Jag heter Viktoria "Viza" Haapaoja och jag läser programmet Webbprogrammering på Blekinge Tekniska Högskola.</b></p>
 
+<img class="figright" src="../htdocs/image/me.jpg?w=300">
+
 <p>Jag kommer ursprungligen från den lilla orten/hålan Strömsholm som ligger ett par mil utanför Västerås. Hjärtat tillhör
 dock Karlskrona, där jag varit bosatt sedan sensommaren 2014.</p>
 
