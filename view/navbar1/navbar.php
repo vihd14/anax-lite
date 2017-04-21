@@ -17,6 +17,7 @@ class CNavigation
     {
         $html = "<nav class='$class'>\n";
         foreach ($items as $item) {
+            // $selected = $this->app->request->getRoute() == $item ? "active" : "";
             $html .= "<a href='{$item['url']}'>{$item['text']}</a>\n";
         }
         $html .= "</nav>\n";
